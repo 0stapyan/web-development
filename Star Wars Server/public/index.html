@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Authentication App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div id="login-form">
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button id="login-btn">Login</button>
+      <span id="login-error" class="error"></span>
+    </div>
+    <button id="logout-btn" style="display: none;">Logout</button>
+  </header>
+  <main>
+    <div id="content" style="display: none;">
+      <h1>Welcome to the Planets and Characters App</h1>
+      <ul id="list"></ul>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

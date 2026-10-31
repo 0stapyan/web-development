@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+  
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+  
+.toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+  
+.toolbar button, .toolbar input {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+    
+.toolbar button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+}
+  
+.toolbar button:hover {
+    background-color: #0056b3;
+}
+  
+.toolbar input[type="range"] {
+    width: 120px;
+}
+  
+.toolbar input[type="color"] {
+    padding: 0;
+    border: none;
+    background: none;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+  
+
+#canvas-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 620px;
+}
+  
+canvas {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: crosshair;
+}
+  
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #666;
+}
+  

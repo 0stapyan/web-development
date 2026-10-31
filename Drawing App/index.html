@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canvas Drawing Tool</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Canvas Drawing Tool</h1>
+  <div class="toolbar">
+
+    <button id="drawMode">Draw (D)</button>
+    <button id="eraseMode">Erase (E)</button>
+    <button id="undo">↺ Undo</button>
+    <button id="clearCanvas">C - Clear Canvas</button>
+    <button id="stampMode">Stamp Mode</button>
+
+    <label for="penSize">Pen Size:</label>
+    <input type="range" id="penSize" min="1" max="50" value="5">
+
+    <label for="colorPicker">Color:</label>
+    <input type="color" id="colorPicker" value="#000000">
+
+    <img id="stampImage" src="image.jpg" alt="Stamp" style="display: none;">
+  </div>
+  <div id="canvas-container">
+    <canvas id="drawingCanvas" width="600" height="400"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
